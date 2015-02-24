@@ -1,0 +1,5 @@
+This code isn't intended to be efficient or reasonable.  Instead, it was created for educational purposes.
+
+Another file, https://gist.github.com/CodingAnarchy/e7b53c30c5755b3485b6 , is intended as a Monty Hall simulation,
+but doesn't stick to the rules laid out in the original problem. I made a version in the same style, but which does
+stick to those rules, in order to demonstrate the issues present.
