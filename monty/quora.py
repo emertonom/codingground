@@ -6,9 +6,9 @@ stay_win = 0
 discard = 0
 switch_win = 0
 for i in range(0, 1000):
-    car = randint(1,3)
-    player = randint(1, 3)
-    reveal = randint(1,3)
+    car = random.randint(1,3)
+    player = random.randint(1, 3)
+    reveal = random.randint(1,3)
 
 #    print "Car: " + str(car) + " Picked: " + str(player) + " Revealed: " + str(reveal)
 
@@ -41,8 +41,8 @@ discard = 0
 switch_win = 0
 
 for i in range(0, 1000):
-    car = randint(1,3)
-    player = randint(1,3)
+    car = random.randint(1,3)
+    player = random.randint(1,3)
     
     if player == 1:
         # if player chose 1, make reveal range 2-3
@@ -76,8 +76,8 @@ stay_win = 0
 switch_win = 0
 
 for i in range(0, 1000):
-    car = randint(1,3)
-    player = randint(1,3)
+    car = random.randint(1,3)
+    player = random.randint(1,3)
     
     reveal_choices = {1,2,3}
     reveal_choices.discard(car)  # Don't show the car.
