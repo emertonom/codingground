@@ -44,13 +44,15 @@ for i in range(0, 1000):
     car = randint(1,3)
     player = randint(1,3)
     
-    reveal = randint(1,2)
     if player == 1:
         # if player chose 1, make reveal range 2-3
-        reveal += 1
+        reveal = random.choice(tuple([2,3]))
     elif player == 2:
         # if player chose 2, make reveal 1 or 3
-        reveal = reveal * 2 - 1
+        reveal = random.choice(tuple([1,3]))
+    else:
+        # player chose 3, make reveal 1 or 2
+        reveal = random.choice(tuple([1,2]))
     
     if reveal == car:
 #        print "Monty revealed the car, and the player instantly lost."        
