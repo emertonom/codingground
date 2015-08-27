@@ -80,8 +80,8 @@ for i in range(0, 1000):
     player = randint(1,3)
     
     reveal_choices = {1,2,3}
-    reveal_choices.discard(car)
-    reveal_choices.discard(player)
+    reveal_choices.discard(car)  # Don't show the car.
+    reveal_choices.discard(player)  # Don't open the player's door.
     reveal = random.choice(tuple(reveal_choices))
     
     if player == car:
