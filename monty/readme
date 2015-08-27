@@ -3,4 +3,10 @@ This code isn't intended to be efficient or reasonable.  Instead, it was created
 Another user created a file, https://gist.github.com/CodingAnarchy/e7b53c30c5755b3485b6 , 
 intended as a Monty Hall simulation. However, it doesn't stick to the rules laid out in 
 the original problem. I made a version in the same style, but which does stick to those rules, 
-in order to demonstrate the issues present.
+in order to demonstrate the issues present. This is "main.py".
+
+I created a second file, "quora.py", in response to some discussion about this topic on Quora:
+http://www.quora.com/Why-does-the-Monty-Hall-problem-seem-counter-intuitive/answer/Jeff-L-Jones
+This answer, and the comments that follow, discuss whether variants of the Monty Hall Problem 
+would have 50/50 outcomes for the "switch or stay?" choice.
+
